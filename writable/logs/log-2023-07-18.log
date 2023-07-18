@@ -1,0 +1,63 @@
+CRITICAL - 2023-07-18 04:26:48 --> Invalid file: "/login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('/login.php', [], true)
+ 3 FCPATH\task\Controllers\Login.php(11): view('/login.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 04:27:20 --> Invalid file: "Views\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Views\\login.php', [], true)
+ 3 FCPATH\task\Controllers\Login.php(11): view('Views\\login.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 04:27:21 --> Invalid file: "Views\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Views\\login.php', [], true)
+ 3 FCPATH\task\Controllers\Login.php(11): view('Views\\login.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 04:27:22 --> Invalid file: "Views\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Views\\login.php', [], true)
+ 3 FCPATH\task\Controllers\Login.php(11): view('Views\\login.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 04:27:22 --> Invalid file: "Views\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Views\\login.php', [], true)
+ 3 FCPATH\task\Controllers\Login.php(11): view('Views\\login.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 04:27:22 --> Invalid file: "Views\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Views\\login.php', [], true)
+ 3 FCPATH\task\Controllers\Login.php(11): view('Views\\login.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 04:27:22 --> Invalid file: "Views\login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views\\login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Views\\login.php', [], true)
+ 3 FCPATH\task\Controllers\Login.php(11): view('Views\\login.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
