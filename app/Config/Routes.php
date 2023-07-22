@@ -30,8 +30,27 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
+// login routes
 $routes->add('/login', 'Login::index', ['namespace' => 'Modules\Controllers']);
+//$routes->add('/user', 'Login::user', ['namespace' => 'Modules\Controllers']);
+$routes->add('/details', 'Login::details', ['namespace' => 'Modules\Controllers']);
+// signup routes
 $routes->add('/sign', 'Signup::index', ['namespace' => 'Modules\Controllers']);
+$routes->add('/submit', 'Signup::savedata', ['namespace' => 'Modules\Controllers']);
+// employee details routes
+$routes->add('/employee', 'EmployeeDetails::employee', ['namespace' => 'Modules\Controllers']);
+// employee view routes
+$routes->add('/view', 'EmployeeView::view', ['namespace' => 'Modules\Controllers']);
+ $routes->add('/search', 'EmployeeView::search', ['namespace' => 'Modules\Controllers']);
+// update
+$routes->add('/index', 'UpdateController::index', ['namespace' => 'Modules\Controllers']);
+$routes->add('edit/(:num)', 'UpdateController::editPerson/$1');
+$routes->add('preview/(:num)', 'UpdateController::preview/$1');
+$routes->add('/update', 'UpdateController::update', ['namespace' => 'Modules\Controllers']);
+$routes->add('delete/(:num)', 'UpdateController::delete/$1');
+$routes->add('deleteall', 'UpdateController::deleteall');
+// admin
+$routes->add('/admin', 'AdminController::updateUserAdminStatus');
 
 /*
  * --------------------------------------------------------------------

@@ -1,0 +1,1935 @@
+CRITICAL - 2023-07-19 04:51:38 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in FCPATH\task\Controllers\Signup.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-19 07:20:14 --> move_uploaded_file(ci_project\uploads64b78eae13b6b_1689751214off.jpg): Failed to open stream: No such file or directory
+in FCPATH\task\Controllers\EmployeeDetails.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(ci_project\\uploads64b78eae13b6b_1689751214off.jpg): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 31)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(31): move_uploaded_file('D:\\xampp\\tmp\\phpF80A.tmp', 'ci_project\\uploads64b78eae13b6b_1689751214off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 07:23:04 --> move_uploaded_file(ci_project\uploads64b78f5812b2d_1689751384off.jpg): Failed to open stream: No such file or directory
+in FCPATH\task\Controllers\EmployeeDetails.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(ci_project\\uploads64b78f5812b2d_1689751384off.jpg): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 31)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(31): move_uploaded_file('D:\\xampp\\tmp\\php902A.tmp', 'ci_project\\uploads64b78f5812b2d_1689751384off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 07:23:08 --> move_uploaded_file(ci_project\uploads64b78f5c43a8e_1689751388off.jpg): Failed to open stream: No such file or directory
+in FCPATH\task\Controllers\EmployeeDetails.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(ci_project\\uploads64b78f5c43a8e_1689751388off.jpg): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 31)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(31): move_uploaded_file('D:\\xampp\\tmp\\phpA096.tmp', 'ci_project\\uploads64b78f5c43a8e_1689751388off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 07:24:55 --> move_uploaded_file(ci_project\uploads64b78fc7c5991_1689751495off.jpg): Failed to open stream: No such file or directory
+in FCPATH\task\Controllers\EmployeeDetails.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(ci_project\\uploads64b78fc7c5991_1689751495off.jpg): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 31)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(31): move_uploaded_file('D:\\xampp\\tmp\\php44E1.tmp', 'ci_project\\uploads64b78fc7c5991_1689751495off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 07:29:55 --> move_uploaded_file(ci_project\uploads64b790f389ee5_1689751795off.jpg): Failed to open stream: No such file or directory
+in FCPATH\task\Controllers\EmployeeDetails.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(ci_project\\uploads64b790f389ee5_1689751795off.jpg): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 31)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(31): move_uploaded_file('D:\\xampp\\tmp\\phpD78A.tmp', 'ci_project\\uploads64b790f389ee5_1689751795off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 07:30:37 --> move_uploaded_file(ci_project\uploads64b7911dae9a0_1689751837off.jpg): Failed to open stream: No such file or directory
+in FCPATH\task\Controllers\EmployeeDetails.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(ci_project\\uploads64b7911dae9a0_1689751837off.jpg): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 31)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(31): move_uploaded_file('D:\\xampp\\tmp\\php7C37.tmp', 'ci_project\\uploads64b7911dae9a0_1689751837off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 07:31:28 --> move_uploaded_file(ci_project\uploads64b791509cb44_1689751888off.jpg): Failed to open stream: No such file or directory
+in FCPATH\task\Controllers\EmployeeDetails.php on line 31.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(ci_project\\uploads64b791509cb44_1689751888off.jpg): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 31)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(31): move_uploaded_file('D:\\xampp\\tmp\\php4341.tmp', 'ci_project\\uploads64b791509cb44_1689751888off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 07:33:13 --> move_uploaded_file(ci_project\uploads64b791b918769_1689751993off.jpg): Failed to open stream: No such file or directory
+in FCPATH\task\Controllers\EmployeeDetails.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(ci_project\\uploads64b791b918769_1689751993off.jpg): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 35)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(35): move_uploaded_file('D:\\xampp\\tmp\\phpDB47.tmp', 'ci_project\\uploads64b791b918769_1689751993off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 07:33:34 --> move_uploaded_file(ci_project\uploads64b791ce3caa3_1689752014off.jpg): Failed to open stream: No such file or directory
+in FCPATH\task\Controllers\EmployeeDetails.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(ci_project\\uploads64b791ce3caa3_1689752014off.jpg): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 35)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(35): move_uploaded_file('D:\\xampp\\tmp\\php2E0C.tmp', 'ci_project\\uploads64b791ce3caa3_1689752014off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 07:33:43 --> move_uploaded_file(ci_project\uploads64b791d7c33e1_1689752023off.jpg): Failed to open stream: No such file or directory
+in FCPATH\task\Controllers\EmployeeDetails.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(ci_project\\uploads64b791d7c33e1_1689752023off.jpg): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 35)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(35): move_uploaded_file('D:\\xampp\\tmp\\php5358.tmp', 'ci_project\\uploads64b791d7c33e1_1689752023off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 07:35:30 --> move_uploaded_file(ci_project\uploads64b79242c9d31_1689752130off.jpg): Failed to open stream: No such file or directory
+in FCPATH\task\Controllers\EmployeeDetails.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(ci_project\\uploads64b79242c9d31_1689752130off.jpg): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 35)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(35): move_uploaded_file('D:\\xampp\\tmp\\phpF541.tmp', 'ci_project\\uploads64b79242c9d31_1689752130off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 07:35:40 --> move_uploaded_file(ci_project\uploads64b7924c54a46_1689752140off.jpg): Failed to open stream: No such file or directory
+in FCPATH\task\Controllers\EmployeeDetails.php on line 35.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(ci_project\\uploads64b7924c54a46_1689752140off.jpg): Failed to open stream: No such file or directory', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 35)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(35): move_uploaded_file('D:\\xampp\\tmp\\php1A9C.tmp', 'ci_project\\uploads64b7924c54a46_1689752140off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 08:58:40 --> move_uploaded_file(\uploads64b7a5c0b5a7d_1689757120off.jpg): Failed to open stream: Permission denied
+in FCPATH\task\Controllers\EmployeeDetails.php on line 38.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_file(\\uploads64b7a5c0b5a7d_1689757120off.jpg): Failed to open stream: Permission denied', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\EmployeeDetails.php', 38)
+ 2 FCPATH\task\Controllers\EmployeeDetails.php(38): move_uploaded_file('D:\\xampp\\tmp\\php188D.tmp', '\\uploads64b7a5c0b5a7d_1689757120off.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeDetails->employee()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeDetails))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 09:11:03 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:27:47 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(10): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:28:42 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(10): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:30:09 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:30:10 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:00 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:01 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:01 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:02 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:02 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:02 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:02 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:03 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:47 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:48 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:49 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:49 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:49 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:49 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:31:50 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:32:10 --> Invalid file: "view_details.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_details.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('view_details.php', [], true)
+ 3 FCPATH\task\Controllers\EmployeeView.php(11): view('view_details.php')
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:51:43 --> Undefined variable $isAdmin
+in FCPATH\task\Views\view_details.php on line 24.
+ 1 FCPATH\task\Views\view_details.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $isAdmin', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:52:49 --> Undefined variable $employee
+in FCPATH\task\Views\view_details.php on line 45.
+ 1 FCPATH\task\Views\view_details.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:52:50 --> Undefined variable $employee
+in FCPATH\task\Views\view_details.php on line 45.
+ 1 FCPATH\task\Views\view_details.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:52:50 --> Undefined variable $employee
+in FCPATH\task\Views\view_details.php on line 45.
+ 1 FCPATH\task\Views\view_details.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:52:51 --> Undefined variable $employee
+in FCPATH\task\Views\view_details.php on line 45.
+ 1 FCPATH\task\Views\view_details.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:53:33 --> Undefined variable $employee
+in FCPATH\task\Views\view_details.php on line 45.
+ 1 FCPATH\task\Views\view_details.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 10:53:33 --> Undefined variable $employee
+in FCPATH\task\Views\view_details.php on line 45.
+ 1 FCPATH\task\Views\view_details.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:06:46 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:07:32 --> Undefined variable $employee
+in FCPATH\task\Views\view_details.php on line 40.
+ 1 FCPATH\task\Views\view_details.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:07:33 --> Undefined variable $employee
+in FCPATH\task\Views\view_details.php on line 40.
+ 1 FCPATH\task\Views\view_details.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:07:34 --> Undefined variable $employee
+in FCPATH\task\Views\view_details.php on line 40.
+ 1 FCPATH\task\Views\view_details.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:07:34 --> Undefined variable $employee
+in FCPATH\task\Views\view_details.php on line 40.
+ 1 FCPATH\task\Views\view_details.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:07:56 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:08:36 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:08:38 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:08:38 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:08:38 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:08:38 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:08:38 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:08:39 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:08:39 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:08:39 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:00 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:01 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:02 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:02 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:02 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:03 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:03 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:03 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:03 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:03 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:49 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:50 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:50 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:50 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:50 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:51 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:51 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:51 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:09:52 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:10:42 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:10:43 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:10:43 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:10:43 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:10:44 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:10:44 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:10:44 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:10:44 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:10:44 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:10:44 --> Undefined variable $employees
+in FCPATH\task\Views\view_details.php on line 38.
+ 1 FCPATH\task\Views\view_details.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employees', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details.php', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(11): view('Modules\\Views\\view_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:18:32 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:18:33 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:18:34 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:18:34 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:18:34 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:18:34 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:18:51 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:18:52 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:18:52 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:18:52 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:35:09 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:35:09 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:37:28 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:37:28 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:37:29 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:37:29 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:37:29 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:37:29 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:38:17 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:38:17 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:38:18 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:38:18 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:38:19 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:38:19 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:38:19 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:38:19 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:38:19 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:38:19 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:38:19 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:38:19 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:38:19 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:38:19 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:38:19 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:38:19 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:38:20 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:38:20 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:38:20 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:38:20 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:39:16 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:39:16 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:39:17 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:39:17 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:39:17 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:39:17 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 11:42:32 --> mysqli_sql_exception: Unknown column 'users.ID' in 'on clause' in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employe...', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\ci_project\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\ci_project\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+#10 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-19 11:42:32 --> Unknown column 'users.ID' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `employees`.*, `user`.*, `employee_images`.`image`
+FROM `employees`
+JOIN `user` ON `users`.`ID` = `employees`.`user_ID`
+JOIN `employee_images` ON `employee_images`.`user_ID` = `employees`.`user_ID`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 FCPATH\task\Models\ViewModel.php(21): CodeIgniter\BaseModel->findAll()
+ 8 FCPATH\task\Controllers\EmployeeView.php(17): Modules\Models\ViewModel->getEmployeesWithImages()
+ 9 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:42:45 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:42:46 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:43:14 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:43:15 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:43:16 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:43:16 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:43:16 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:43:16 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:43:16 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:46:34 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:46:47 --> Undefined array key "username"
+in FCPATH\task\Views\view_details.php on line 44.
+ 1 FCPATH\task\Views\view_details.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(20): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 11:49:39 --> Undefined array key "Phone Number"
+in FCPATH\task\Views\view_details.php on line 46.
+ 1 FCPATH\task\Views\view_details.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Phone Number"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 46)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(21): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:08:38 --> Undefined array key "Admin"
+in FCPATH\task\Views\view_details.php on line 55.
+ 1 FCPATH\task\Views\view_details.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Admin"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(21): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:19:12 --> Call to undefined function 64af8d2c76844_1689226540off.jpg()
+in FCPATH\task\Views\view_details.php on line 51.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 4 FCPATH\task\Controllers\EmployeeView.php(21): view('Modules\\Views\\view_details', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:23:38 --> Array to string conversion
+in FCPATH\task\Views\view_details.php on line 54.
+ 1 FCPATH\task\Views\view_details.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(21): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:24:02 --> Array to string conversion
+in FCPATH\task\Views\view_details.php on line 54.
+ 1 FCPATH\task\Views\view_details.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(21): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:50:14 --> Object of class Modules\Models\HomeModal could not be converted to string
+in FCPATH\task\Controllers\Login.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:51:03 --> Object of class Modules\Models\HomeModal could not be converted to string
+in FCPATH\task\Controllers\Login.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:52:29 --> Object of class Modules\Models\HomeModal could not be converted to string
+in FCPATH\task\Controllers\Login.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:54:01 --> Object of class Modules\Models\HomeModal could not be converted to string
+in FCPATH\task\Controllers\Login.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 16:15:25 --> Undefined variable $admin
+in FCPATH\task\Views\view_details.php on line 28.
+ 1 FCPATH\task\Views\view_details.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(21): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 16:15:30 --> Undefined variable $admin
+in FCPATH\task\Views\view_details.php on line 28.
+ 1 FCPATH\task\Views\view_details.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(21): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 16:16:08 --> Undefined variable $admin
+in FCPATH\task\Views\view_details.php on line 28.
+ 1 FCPATH\task\Views\view_details.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $admin', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\view_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\view_details', [], true)
+ 5 FCPATH\task\Controllers\EmployeeView.php(21): view('Modules\\Views\\view_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\EmployeeView->view()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\EmployeeView))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

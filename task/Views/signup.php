@@ -32,7 +32,7 @@
                         <div class="card" style="border-radius: 15px;">
                             <div class="card-body p-5">
                                 <h2 class="text-uppercase text-center mb-5">Create an account</h2>
-                                <form id="myForm" method="POST" action="Signup.php">
+                                <form id="myForm" method="POST" action="<?= base_url('/submit'); ?>">
                                     <div class="mb-3">
                                         <label for="name" class="form-label">Name</label>
                                         <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name">
@@ -60,7 +60,7 @@
                                         </div>
                                     </div>
                                     <div class="d-flex justify-content-center">
-                                        <button type="submit" class="btn">Register</button>
+                                        <button type="submit" name="save" value="Register" class="btn">Register</button>
                                     </div>
                                     <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="<?= base_url('/login'); ?>" class="fw-bold text-body"><u>Login here</u></a></p>
                                 </form>

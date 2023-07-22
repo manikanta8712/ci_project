@@ -61,3 +61,2141 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
  5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
  6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:31:29 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:31:29 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:32:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:32:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:32:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:32:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:32:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:32:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:32:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:32:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:32:40 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:32:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:32:41 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:32:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:32:41 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:32:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:32:41 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:32:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:32:47 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:32:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:33:10 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:33:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:33:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:33:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:33:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:33:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:33:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:33:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:33:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:33:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:33:12 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:33:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:33:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:33:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:33:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:33:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:33:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:33:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:33:37 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:33:37 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:33:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:33:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:34:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:34:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:35:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:35:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(13): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:35:15 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:35:15 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:35:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:35:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` IS NULL
+ LIMIT 1', [], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:35:45 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:35:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:35:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:35:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:35:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:35:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:35:59 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:35:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:36:00 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:36:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:36:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:36:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:36:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:36:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:36:02 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:36:02 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:36:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:36:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:36:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:36:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:36:04 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:36:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:36:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->index()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:36:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-18 06:46:56 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), 'task', 3306, '', 0)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->details()
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#9 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ci_project\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ci_project\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ci_project\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\xampp\htdocs\ci_project\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\xampp\htdocs\ci_project\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\xampp\htdocs\ci_project\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+#6 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(932): Modules\Controllers\Login->details()
+#7 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+#8 D:\xampp\htdocs\ci_project\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ci_project\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-07-18 06:46:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `Email` = :Email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 FCPATH\task\Controllers\Login.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 07:35:07 --> Undefined variable $data
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(12): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 07:54:57 --> Attempt to read property "email" on array
+in FCPATH\task\Controllers\Login.php on line 21.
+ 1 FCPATH\task\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 08:00:18 --> Undefined variable $results
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(12): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 08:00:22 --> Undefined variable $results
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(12): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 08:02:04 --> Attempt to read property "email" on array
+in FCPATH\task\Controllers\Login.php on line 21.
+ 1 FCPATH\task\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "email" on array', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 08:02:32 --> Array to string conversion
+in FCPATH\task\Controllers\Login.php on line 21.
+ 1 FCPATH\task\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\Login.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:11:18 --> Array to string conversion
+in FCPATH\task\Controllers\Login.php on line 22.
+ 1 FCPATH\task\Controllers\Login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\Login.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:22:58 --> syntax error, unexpected token "echo", expecting "function" or "const"
+in FCPATH\task\Controllers\Login.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\Login.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Modules\\Controllers\\Login')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Modules\\Controllers\\Login')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\Modules\\Controllers\\Login', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:27:33 --> Undefined variable $data
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(12): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:28:31 --> Undefined variable $data
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(12): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:29:21 --> Undefined variable $data
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(12): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:29:24 --> Undefined variable $data
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(12): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:30:42 --> Undefined variable $data
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(12): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:32:04 --> Undefined variable $data
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(19): view('Modules\\Views\\login.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:33:53 --> Undefined variable $results
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(12): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:34:24 --> Array to string conversion
+in FCPATH\task\Views\login.php on line 36.
+ 1 FCPATH\task\Views\login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(19): view('Modules\\Views\\login.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:34:40 --> Undefined variable $results
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(12): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:36:10 --> Undefined variable $results
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(12): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:36:15 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('login.php', [], true)
+ 3 FCPATH\task\Controllers\Login.php(19): view('login.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:36:22 --> Undefined variable $results
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(12): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:40:16 --> Array to string conversion
+in FCPATH\task\Views\login.php on line 36.
+ 1 FCPATH\task\Views\login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(15): view('Modules\\Views\\login.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:43:07 --> Array to string conversion
+in FCPATH\task\Views\login.php on line 36.
+ 1 FCPATH\task\Views\login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(16): view('Modules\\Views\\login.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:44:56 --> Undefined variable $results
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $results', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(16): view('Modules\\Views\\login.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:45:57 --> Undefined array key "Email"
+in FCPATH\task\Views\login.php on line 36.
+ 1 FCPATH\task\Views\login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Email"', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(16): view('Modules\\Views\\login.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:48:08 --> Undefined variable $data
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(16): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 09:49:06 --> Undefined variable $data
+in FCPATH\task\Views\login.php on line 35.
+ 1 FCPATH\task\Views\login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\login.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\login.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(16): view('Modules\\Views\\login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 10:49:45 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(21): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 10:49:54 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(21): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 10:50:01 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(21): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 10:50:04 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(21): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:25:13 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:25:17 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:25:33 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:36:12 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::isPost()
+in FCPATH\task\Controllers\Login.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:41:35 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:41:48 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:45:22 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(23): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:45:29 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(23): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:46:12 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(23): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:47:04 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(23): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:47:15 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(23): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:50:11 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(29): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:50:22 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(29): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 11:54:24 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(32): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 12:07:01 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 12:17:46 --> Undefined variable $username
+in FCPATH\task\Views\enter_details.php on line 43.
+ 1 FCPATH\task\Views\enter_details.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\enter_details.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\enter_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\enter_details.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(43): view('Modules\\Views\\enter_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 12:18:32 --> Undefined variable $username
+in FCPATH\task\Views\enter_details.php on line 43.
+ 1 FCPATH\task\Views\enter_details.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'D:\\xampp\\htdocs\\ci_project\\task\\Views\\enter_details.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\ci_project\\task\\Views\\enter_details.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('Modules\\Views\\enter_details.php', [], true)
+ 5 FCPATH\task\Controllers\Login.php(43): view('Modules\\Views\\enter_details.php')
+ 6 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:15:55 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:16:01 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:16:27 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:18:26 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:19:13 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:19:26 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:19:57 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:20:28 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(24): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->index()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:28:11 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(48): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:28:21 --> Call to undefined method Modules\Models\HomeModal::getUserByEmail
+in SYSTEMPATH\Model.php on line 838.
+ 1 FCPATH\task\Controllers\Login.php(48): CodeIgniter\Model->__call('getUserByEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:32:50 --> Undefined array key "password"
+in FCPATH\task\Controllers\Login.php on line 56.
+ 1 FCPATH\task\Controllers\Login.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\Login.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-18 13:33:51 --> Undefined array key "password"
+in FCPATH\task\Controllers\Login.php on line 56.
+ 1 FCPATH\task\Controllers\Login.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'D:\\xampp\\htdocs\\ci_project\\task\\Controllers\\Login.php', 56)
+ 2 SYSTEMPATH\CodeIgniter.php(932): Modules\Controllers\Login->details()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(Modules\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

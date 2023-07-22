@@ -30,7 +30,39 @@
         }
     </style>
 </head>
+
 <body>
+    <?php
+    // if (isset($_POST['Email']) && isset($_POST['Password'])) {
+    //     $email = $_POST['Email'];
+    //     // echo $email;
+    //     $password = $_POST['Password'];
+    //     $hashedPlaintextPassword = md5($password);
+    //     // echo $hashedPlaintextPassword;
+    //     $emailMatched = false;
+    //     $passwordMatched = false;
+    //     foreach ($results as $res) {
+    //         $Email = $res['Email'];
+    //         $Password = $res['Password'];
+    //         //echo $Email;
+    //         //echo $email;
+    //         //echo $password;
+    //         if (strtolower($email) === strtolower($Email)) {
+    //             $emailMatched = true;
+    //             if ($hashedPlaintextPassword === $Password) {
+    //                 $passwordMatched = true;
+    //                 header('Location: ' . base_url('/details'));
+    //                 exit;
+    //             }
+    //         }
+    //     }
+    //     if (!$emailMatched) {
+    //         $show_error = "Invalid Email";
+    //     } elseif (!$passwordMatched) {
+    //         $show_error = "Email and Password Not Matched";
+    //     }
+    // }
+    ?>
     <section class="vh-100" style="background-color: #508bfc;">
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
@@ -67,4 +99,5 @@
         </div>
     </section>
 </body>
+
 </html>
